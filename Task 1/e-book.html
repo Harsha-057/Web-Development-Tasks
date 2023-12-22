@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/e-book.css">
+    <title>My E-Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <nav class="container-2xl bg-white border-gray-200 dark:bg-gray-900">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img
+              src="./assets/images/avatar-1.png"
+              class="h-8"
+              alt="Flowbite Logo"
+            />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >E-Book</span
+            >
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="profile.html"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="timetable.html"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Time Table</a
+                >
+              </li>
+              <li>
+                <a
+                  href="e-book.html"
+                  aria-current="page"
+                  class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                  >E-Book</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h2>My Heading</h2>
+    <img class="image1" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="image here">
+    <h2>Index</h2>
+    
+    <nav>
+        <hr>
+        <h2>Table of Contents</h2>
+        <div id="bookmarks">
+        
+        <ol>
+            <li><a href="#section-1">Introduction to HTML</a>
+                <ol start="1">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#structure">Structure of HTML Document</a></li>
+                    <li><a href="#template">Basic HTML Template</a></li>
+                </ol>
+            </li>
+            <li><a href="#section-2">Heading Tags</a>
+                <ol>
+                    <li><a href="#h1">h1 - Heading 1</a></li>
+                    <li><a href="#h2">h2 - Heading 2</a></li>
+                    <li><a href="#h3">h3 - Heading 3</a></li>
+                    <li><a href="#h4">h4 - Heading 4</a></li>
+                    <li><a href="#h5">h5 - Heading 5</a></li>
+                    <li><a href="#h6">h6 - Heading 6</a></li>
+                </ol>
+            </li>
+            <li><a href="#section-3">Attribute Tags</a>
+                <ol>
+                    <li><a href="#class">class Attribute</a></li>
+                    <li><a href="#id">id Attribute</a></li>
+                    <li><a href="#src">src Attribute</a></li>
+                    <li><a href="#alt">alt Attribute</a></li>
+                    <li><a href="#href">href Attribute</a></li>
+                    <li><a href="#style">style Attribute</a></li>
+                </ol>
+            </li>
+            <li><a href="#section-4">List Tags</a>
+                <ol>
+                    <li><a href="#ul">ul - Unordered List</a></li>
+                    <li><a href="#ol">ol - Ordered List</a></li>
+                    <li><a href="#li">li - List Item</a></li>
+                    <li><a href="#dl">dl - Definition List</a></li>
+                    <li><a href="#dt">dt - Definition Term</a></li>
+                    <li><a href="#dd">dd - Definition Description</a></li>
+                </ol>
+            </li>
+            
+        </ol>
+    </div>
+    </nav>
+
+        <hr>
+        <div>
+        <section id="section-1">
+            <h2><mark>Introduction to HTML</mark></h2>
+            <section id="overview">
+                <h3>1.1 Overview</h3>
+                <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
+            </section>
+            <section id="structure">
+                <h3>1.2 Structure of HTML Document</h3>
+                <p>An HTML document is structured using elements such as tags, attributes, and content.</p>
+            </section>
+            <section id="template">
+                <h3>1.3 Basic HTML Template</h3>
+                <pre>
+                    <code>
+                        <!DOCTYPE html>
+                        &lt;html lang="en"&gt;
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                            &lt;title&gt;My HTML Page&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </pre>
+            </section>
+        </section>
+        <hr>
+        <section id="section-2">
+            <h2>Heading Tags</h2>
+            <section id="h1">
+                <h3>2.1 h1 - Heading 1</h3>
+                <p>The h1 tag defines the most important heading on the page.</p>
+            </section>
+            <section id="h2">
+                <h3>2.2 h2 - Heading 2</h3>
+                <p>The h2 tag defines a level 2 heading.</p>
+            </section>
+            <section id="h3">
+                <h3>2.3 h3 - Heading 3</h3>
+                <p>The h3 tag defines a level 3 heading.</p>
+            </section>
+            <section id="h4">
+                <h3>2.4 h4 - Heading 4</h3>
+                <p>The h4 tag defines a level 4 heading.</p>
+            </section>
+            <section id="h5">
+                <h3>2.5 h5 - Heading 5</h3>
+                <p>The h5 tag defines a level 5 heading.</p>
+            </section>
+            <section id="h6">
+                <h3>2.6 h6 - Heading 6</h3>
+                <p>The h6 tag defines the least important heading.</p>
+            </section>
+        </section>
+
+        <hr>
+        <section id="section-3">
+            <h2>Attribute Tags</h2>
+            <section id="class">
+                <h3>3.1 class Attribute</h3>
+                <p>The class attribute is used to define equal styles for elements with the same class.</p>
+                <pre>
+                    <code>
+                        &lt;p class="important-text"&gt;This is an important paragraph.&lt;/p&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="id">
+                <h3>3.2 id Attribute</h3>
+                <p>The id attribute is used to uniquely identify an element on a page.</p>
+                <pre>
+                    <code>
+                        &lt;div id="header"&gt;This is the header&lt;/div&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="src">
+                <h3>3.3 src Attribute</h3>
+                <p>The src attribute is used to specify the source (URL) of embedded content like images.</p>
+                <pre>
+                    <code>
+                        &lt;img src="image.jpg" alt="An example image"&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="alt">
+                <h3>3.4 alt Attribute</h3>
+                <p>The alt attribute provides alternative text for an image, which is displayed if the image cannot be loaded.</p>
+                <pre>
+                    <code>
+                        &lt;img src="image.jpg" alt="An example image"&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="href">
+                <h3>3.5 href Attribute</h3>
+                <p>The href attribute is used to specify the URL of a linked resource, typically used with the &lt;a&gt; (anchor) tag.</p>
+                <pre>
+                    <code>
+                        &lt;a href="https://example.com"&gt;Visit our website&lt;/a&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="style">
+                <h3>3.6 style Attribute</h3>
+                <p>The style attribute is used to add inline styles to an element.</p>
+                <pre>
+                    <code>
+                        &lt;p style="color: blue; font-size: 16px;"&gt;Styled paragraph&lt;/p&gt;
+                    </code>
+                </pre>
+            </section>
+        </section>
+        <hr>
+        <section id="section-4">
+            <h2>List Tags</h2>
+            <section id="ul">
+                <h3>4.1 ul - Unordered List</h3>
+                <p>The ul tag is used to create an unordered list.</p>
+                <pre>
+                    <code>
+                        &lt;ul&gt;
+                            &lt;li&gt;Item 1&lt;/li&gt;
+                            &lt;li&gt;Item 2&lt;/li&gt;
+                            &lt;li&gt;Item 3&lt;/li&gt;
+                        &lt;/ul&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="ol">
+                <h3>4.2 ol - Ordered List</h3>
+                <p>The ol tag is used to create an ordered list.</p>
+                <pre>
+                    <code>
+                        &lt;ol&gt;
+                            &lt;li&gt;First item&lt;/li&gt;
+                            &lt;li&gt;Second item&lt;/li&gt;
+                            &lt;li&gt;Third item&lt;/li&gt;
+                        &lt;/ol&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="li">
+                <h3>4.3 li - List Item</h3>
+                <p>The li tag is used to define a list item.</p>
+                <pre>
+                    <code>
+                        &lt;ul&gt;
+                            &lt;li&gt;Item 1&lt;/li&gt;
+                            &lt;li&gt;Item 2&lt;/li&gt;
+                            &lt;li&gt;Item 3&lt;/li&gt;
+                        &lt;/ul&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="dl">
+                <h3>4.4 dl - Definition List</h3>
+                <p>The dl tag is used to create a definition list.</p>
+                <pre>
+                    <code>
+                        &lt;dl&gt;
+                            &lt;dt&gt;HTML&lt;/dt&gt;
+                            &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+                            &lt;dt&gt;CSS&lt;/dt&gt;
+                            &lt;dd&gt;Cascading Style Sheets&lt;/dd&gt;
+                        &lt;/dl&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="dt">
+                <h3>4.5 dt - Definition Term</h3>
+                <p>The dt tag is used to define a term in a definition list.</p>
+                <pre>
+                    <code>
+                        &lt;dl&gt;
+                            &lt;dt&gt;HTML&lt;/dt&gt;
+                            &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+                            &lt;dt&gt;CSS&lt;/dt&gt;
+                            &lt;dd&gt;Cascading Style Sheets&lt;/dd&gt;
+                        &lt;/dl&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="dd">
+                <h3>4.5 dd - Definition Description</h3>
+                <p>The dd tag is used to define the description of a term in a definition list</p>
+                <pre>
+                    <code>
+                        &lt;dl&gt;
+                            &lt;dt&gt;HTML&lt;/dt&gt;
+                            &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+                            &lt;dt&gt;CSS&lt;/dt&gt;
+                            &lt;dd&gt;Cascading Style Sheets&lt;/dd&gt;
+                        &lt;/dl&gt;
+                    </code>
+                </pre>
+            </section>
+
+    </nav>
+</div>
+
+</body>
+</html>
